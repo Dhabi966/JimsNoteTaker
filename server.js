@@ -1,9 +1,11 @@
 const express = require('express');
-
-const PORT = process.env.PORT || 3001;
-const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
+
+// Creating port and initializing express (app)
+const PORT = process.env.PORT || 3001;
+const app = express();
+
 
 // Using middleware
 app.use(express.urlencoded({ extended: true }));
@@ -16,5 +18,5 @@ app.use('/', htmlRoutes);
 
 // Starting server on the port
 app.listen(PORT, () => {
-  console.log(`API server now on port ${PORT}!`);
+  console.log(`API server is on port ${PORT}!`);
 });
