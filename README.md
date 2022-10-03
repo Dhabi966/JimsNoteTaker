@@ -1,1 +1,1 @@
-# JimsNote Taker
+# Jims Note Taker
