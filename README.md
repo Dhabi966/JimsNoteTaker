@@ -26,6 +26,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ```
 Screenshot
+![image](https://user-images.githubusercontent.com/108851005/193496967-911f81c8-5c0d-4ba0-b1ba-185017f02c28.png)
 
 Link to deployed app
 https://jimsnotetaker.herokuapp.com/
