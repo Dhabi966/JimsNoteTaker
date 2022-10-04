@@ -32,5 +32,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ![image](https://user-images.githubusercontent.com/108851005/193497583-438c1830-6861-4b98-a355-fd4aecef5f1d.png)
 
 
+Github Repo: https://github.com/Dhabi966/JimsNoteTaker
+
 Link to deployed app
 https://jimsnotetaker.herokuapp.com/
