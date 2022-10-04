@@ -25,7 +25,8 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
 ```
-Screenshots
+## Screenshots
+
 ![image](https://user-images.githubusercontent.com/108851005/193497345-823a0e6b-166a-4160-8945-5cb13dfe3572.png)
 
 ![image](https://user-images.githubusercontent.com/108851005/193497583-438c1830-6861-4b98-a355-fd4aecef5f1d.png)
