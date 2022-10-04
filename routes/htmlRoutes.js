@@ -6,7 +6,7 @@ router.get('/notes', function(req, res) {
   res.sendFile(path.join(__dirname, '../public/notes.html'));
 });
 
-// All other routes ('*') should also get data and send to index.html file
+// All other routes ('*') should get the data and send to index.html file
 router.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });

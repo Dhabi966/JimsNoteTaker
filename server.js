@@ -1,3 +1,4 @@
+// Importing what is required
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
@@ -12,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-// Use apiRoutes
+// Use api and html routes
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
