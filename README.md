@@ -34,5 +34,5 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 Github Repo: https://github.com/Dhabi966/JimsNoteTaker
 
-Link to deployed app
+Link to deployed app:
 https://jimsnotetaker.herokuapp.com/
